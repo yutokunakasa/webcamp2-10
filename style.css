@@ -57,3 +57,34 @@ main {
 .title {
 	margin: 15px 0 5px;
 }
+
+@media screen and (max-width: 768px) {
+	main {
+		width: 100%;
+	}
+	.box {
+		width: 90%;
+		margin: 20px auto;
+		float: none;
+	}
+	.box:nth-child(3) {
+		margin: 0 auto;
+	}
+	.step-img1 {
+		width: 100%;
+		background-size: cover;
+	}
+	.step-img2 {
+		width: 100%;
+	}
+	.step-img3 {
+		width: 100%;
+	}
+	.title {
+		width: 100%;
+		color: dimgrey;
+	}
+	.text {
+		width: 100%;
+		color: dimgray;
+	}
